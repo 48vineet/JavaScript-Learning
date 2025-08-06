@@ -399,3 +399,5 @@
 //   e.target.value;
 //returns value after wring every words
 // });
+
+//my own notes
