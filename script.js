@@ -9,7 +9,7 @@
 //string % Number = NaN
 //string + Number = Concatination
 //string - Number = operation will perform
-
+ 
 // a = b assigning a is equal to b
 // a == b comparing  a is equal to b , but if a == "a" where a is number and "a" is string then the result is shocking that its result is true
 // a === b to avoid data type misconfution === is introduced which is strict equality and this time if we checke a === "a" then result will be false
