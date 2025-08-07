@@ -5,7 +5,7 @@
  
 //* 
 //string * Number = NaN
-//string / Number = NaN
+//string / Number = NaN 
 //string % Number = NaN
 //string + Number = Concatination
 //string - Number = operation will perform
