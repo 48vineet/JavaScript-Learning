@@ -400,7 +400,7 @@
 //returns value after wring every words
 // });
 
-let date = new Date(year, month); 
-console.log(date);
+// let date = new Date(year, month); 
+// console.log(date);
 
 //my own notes
