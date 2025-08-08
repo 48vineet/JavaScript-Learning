@@ -3,7 +3,7 @@
 // let result = a + b;
 // console.log(result.toFixed(2));  // toFixed(2) for number upto digit you want
 
-//* 
+//*
 //string * Number = NaN
 //string / Number = NaN
 //string % Number = NaN
@@ -399,3 +399,6 @@
 //   e.target.value;
 //returns value after wring every words
 // });
+
+let date = new Date(year, month); 
+console.log(date);
