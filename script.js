@@ -409,12 +409,12 @@
 
 //? setInterval(() => {}, interval); // function will reapet every given time
 
-function swap(a, b) {
-  console.log(`value before swapping a = ${a} , b=${b}`);
-  a = a + b; // 30
-  b = a - b; // 10
-  a = a - b; // 20
-  console.log(`value after swapping a = ${a} , b=${b}`);
-}
+// function swap(a, b) {
+//   console.log(`value before swapping a = ${a} , b=${b}`);
+//   a = a + b; // 30
+//   b = a - b; // 10
+//   a = a - b; // 20
+//   console.log(`value after swapping a = ${a} , b=${b}`);
+// }
 
-swap(10, 20);
+// swap(10, 20);
