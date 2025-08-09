@@ -12,3 +12,31 @@
 //* higher order functions are functions that take other functions as arguments or return functions as their result. They are a key feature of functional programming.
 //! Callback Functions
 //* callback functions are functions that are passed as arguments to other functions and are executed after the completion of the parent function.
+//! Callback hell
+//* callback hell is a situation where you have multiple nested callbacks, making the code hard to read and maintain. It can be avoided by using promises or async/await.
+//! Fetch API
+//* the fetch API is a modern way to make network requests in JavaScript. It returns a promise that resolves to the response of the request.
+//? how to fetch api step by step
+//* 1. use the fetch() function to make a request to the API endpoint.
+//* 2. use the .then() method to handle the response.
+//* 3. use the .json() method to parse the response as JSON.
+//TODO example of fetch API
+// fetch("https://jsonplaceholder.typicode.com/posts")
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+//     return response.json();
+//   })
+//   .then((data) => console.log(data))
+//   .catch((error) =>
+//     console.error("There was a problem with the fetch operation:", error)
+//   );
+
+//! Promises
+//* promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value.
+//* Basically It is like a placeholder for the result of an asynchronous operation.
+//? Promise => Pending => Setlled in that there is two situation resolved or rejected
+//TODO promis has built-in methods like then and catch to handle the resolved and rejected states respectively.
+//? then() is used to handle the resolved state of a promise, and it takes a callback function as an argument.
+//? catch() is used to handle the rejected state of a promise, and it also takes a callback function as an argument.
