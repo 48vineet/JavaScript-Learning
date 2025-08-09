@@ -3,17 +3,17 @@
 // let result = a + b;
 // console.log(result.toFixed(2));  // toFixed(2) for number upto digit you want
 
-//* 
+//*
 //string * Number = NaN
 //string / Number = NaN
 //string % Number = NaN
 //string + Number = Concatination
 //string - Number = operation will perform
-  
+
 // a = b assigning a is equal to b
 // a == b comparing  a is equal to b , but if a == "a" where a is number and "a" is string then the result is shocking that its result is true
 // a === b to avoid data type misconfution === is introduced which is strict equality and this time if we checke a === "a" then result will be false
-// if we compare 5 < "fsdwda" //! fsdwada is not define no true or false will be shown 
+// if we compare 5 < "fsdwda" //! fsdwada is not define no true or false will be shown
 
 //? && gives true if both oparand staisfies or becomes true else false
 //? || returns truw if one the operand is true otherwise false
@@ -400,7 +400,21 @@
 //returns value after wring every words
 // });
 
-// let date = new Date(year, month); 
+// let date = new Date(year, month);
 // console.log(date);
 
-//my own notes
+//? setTimeout(() => {}, timeout); call after the time given
+//             ^           ^
+//         function      duration 2000
+
+//? setInterval(() => {}, interval); // function will reapet every given time
+
+function swap(a, b) {
+  console.log(`value before swapping a = ${a} , b=${b}`);
+  a = a + b; // 30
+  b = a - b; // 10
+  a = a - b; // 20
+  console.log(`value after swapping a = ${a} , b=${b}`);
+}
+
+swap(10, 20);
