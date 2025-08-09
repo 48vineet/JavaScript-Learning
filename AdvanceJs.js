@@ -40,3 +40,29 @@
 //TODO promis has built-in methods like then and catch to handle the resolved and rejected states respectively.
 //? then() is used to handle the resolved state of a promise, and it takes a callback function as an argument.
 //? catch() is used to handle the rejected state of a promise, and it also takes a callback function as an argument.
+//? promis.all() is a method that takes an array of promises and returns a single promise that resolves when all the promises in the array have resolved, or rejects if any of the promises in the array reject.
+//? prmos.allSettled() is a method that takes an array of promises and returns a single promise that resolves when all the promises in the array have settled (either resolved or rejected), and it returns an array of objects that contain the status and value of each promise.
+//? promis.race() is a method that takes an array of promises and returns a single promise that resolves or rejects as soon as one of the promises in the array resolves or rejects, with the value or reason of that promise.
+
+//TODO Simple example of Promise with all important parameters
+// const myPromise = new Promise((resolve, reject) => {
+//   const success = true; // Change to false to test reject
+//   if (success) {
+//     resolve("Promise resolved successfully!");
+//   } else {
+//     reject("Promise was rejected!");
+//   }
+// });
+
+// myPromise
+//   .then((result) => {
+//     console.log("Then:", result); // Runs if promise is resolved
+//   })
+//   .catch((error) => {
+//     console.error("Catch:", error); // Runs if promise is rejected
+//   })
+//   .finally(() => {
+//     console.log("Finally: Promise settled (resolved or rejected)"); // Runs always
+//   });
+// output : Then: Promise resolved successfully!
+// Finally: Promise settled (resolved or rejected)
