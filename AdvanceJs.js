@@ -12,7 +12,7 @@
 //* higher order functions are functions that take other functions as arguments or return functions as their result. They are a key feature of functional programming.
 //! Callback Functions
 //* callback functions are functions that are passed as arguments to other functions and are executed after the completion of the parent function.
-//! Callback hell
+//! Callback he'll 
 //* callback hell is a situation where you have multiple nested callbacks, making the code hard to read and maintain. It can be avoided by using promises or async/await.
 //! Fetch API
 //* the fetch API is a modern way to make network requests in JavaScript. It returns a promise that resolves to the response of the request.
