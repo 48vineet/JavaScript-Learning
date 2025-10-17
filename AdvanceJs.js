@@ -31,7 +31,7 @@
 //   .then((data) => console.log(data))
 //   .catch((error) =>
 //     console.error("There was a problem with the fetch operation:", error)
-//   );
+//   ); 
 
 //! Promises
 //* promises are objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value.
