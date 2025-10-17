@@ -1,6 +1,6 @@
 //! Event Propagation
 //* event propagation is the way events are handled in the DOM. It consists of two phases: capturing and bubbling.
-//* capturing phase: the event starts from the root and goes down to the target element. 
+//* capturing phase: the event starts from the root and goes down to the target element.  
 //* bubbling phase: the event starts from the target element and goes up to the root.
 //* target phase: the event is handled at the target element itself.
 //! Event Delegation
