@@ -63,6 +63,6 @@
 //   })
 //   .finally(() => {
 //     console.log("Finally: Promise settled (resolved or rejected)"); // Runs always
-//   });
+//   }); 
 // output : Then: Promise resolved successfully!
 // Finally: Promise settled (resolved or rejected)
