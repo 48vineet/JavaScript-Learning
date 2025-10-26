@@ -3,7 +3,7 @@
 // let result = a + b;
 // console.log(result.toFixed(2));  // toFixed(2) for number upto digit you want
    
-//* 
+//*  
 //string * Number = NaN
 //string / Number = NaN
 //string % Number = NaN
