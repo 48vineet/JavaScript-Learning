@@ -22,7 +22,7 @@
 // let age = 14;
 // age >= 18 ? "True" : "false";
 
-//! ================ If else Statement ================
+//! ================ If else Statement ================ 
 // if (condition) {
 //     console.log(object); //true
 // } else {
